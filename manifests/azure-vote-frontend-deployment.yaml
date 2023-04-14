@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: azure-vote-front
-          image: pipeline101.azurecr.io/image
+          image: kubereg1.azurecr.io/image
           ports:
             - containerPort: 80
           env:
